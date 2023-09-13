@@ -113,18 +113,23 @@ console.log(sobre_yuri);
 
 let cadastro = [
     {
-        nome: "Kleber"
-         
+        nome: "Kleber",
+        idade: 20,
+        telefone: 21903442995,
+        amigos: ["João", "Carlos", "Rebeca", "Lucas", "Gabriel"]
     }
     ,{
+       nome: "João",
+       idade: 18,
+       telefone: 2190863349,
+       amigos: ["Kleber","Carlos","Rebeca","Lucas","Gabriel"]
+       
+    },
+    {
+        
+    },
+    {
 
-        idade: 19
-    },
-    {
-        telefone:21985456987
-    },
-    {
-        amigos: ["João", "carlos", "Gabriel", "lucas"]
     }
 ]
 console.log(cadastro);
