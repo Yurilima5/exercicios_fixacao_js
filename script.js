@@ -82,7 +82,12 @@ lista_desejo.shift();
 
 //Exercício 14
 
-//??
+let ordem =  [7,5,6,3,10,8,9,2,1,4];
+console.log(
+ordem.sort(function (a,b) {
+    return a - b;
+})
+);
 
 //Exercício 15
 
@@ -108,10 +113,18 @@ console.log(sobre_yuri);
 
 let cadastro = [
     {
-        nome: "Kleber",
-        idade: 19,
-        telefone:21985456987,
-        amigos:"jose, carlos, fabiano, jose"
+        nome: "Kleber"
+         
+    }
+    ,{
+
+        idade: 19
+    },
+    {
+        telefone:21985456987
+    },
+    {
+        amigos: ["João", "carlos", "Gabriel", "lucas"]
     }
 ]
 console.log(cadastro);
